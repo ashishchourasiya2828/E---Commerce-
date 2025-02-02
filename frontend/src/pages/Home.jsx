@@ -6,9 +6,6 @@ import BestDeals from '../components/BestDeals';
 const Home = () => {
   return (
     <div className='w-full relative bg-gray-100'>
-      
-      <Navbar/>
-
       {/* About section */}
       <div className='relative h-[72vh] w-full'>
         {/* background image */}

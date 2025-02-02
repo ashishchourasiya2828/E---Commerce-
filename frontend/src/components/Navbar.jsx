@@ -9,12 +9,12 @@ const Navbar = () => {
     const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <div className='w-full py-3 mb-2 bg-emerald-200 flex items-center justify-evenly text-xs text-gray-700 font-medium cursor-default'>
+    <div className='w-full py-3 bg-emerald-200 flex items-center justify-evenly text-xs text-gray-700 font-medium cursor-default fixed z-10' >
       
       {/*nav1  logo */}
       <div className='relative h-10'>
-       <img className='h-10 absolute -left-12' src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Emblem.png" />
-       <h1 className='text-2xl text-blue-500 font-bold'>snap<span className='text-pink-400'>Cart</span></h1>
+       <img className='h-9 absolute -left-12' src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Emblem.png" />
+       <h1 className='text-3xl text-blue-500 font-bold'>Snap<span className='text-pink-400'>Cart</span></h1>
       </div>
       
       {/* nav2 */}

@@ -4,18 +4,20 @@ import Home from "./pages/Home";
 import About from './pages/About';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Page2 from "./pages/Page2";
+import ProductDetails from './pages/ProductDetails';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/product-details' element={<ProductDetails />} />
       </Routes>
-      <Page2 />
     </>
   )
 }
