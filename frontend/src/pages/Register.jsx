@@ -91,7 +91,7 @@ const Register = () => {
 
                         <button
                             type="submit"
-                            className="w-full bg-[#190634] hover:opacity-90 font-bold text-white py-2 rounded-lg mt-3"
+                            className="w-full bg-[#190634] hover:opacity-90 font-semibold text-white py-3 rounded-lg mt-3"
                         >
                             SIGN UP
                         </button>
@@ -109,7 +109,7 @@ const Register = () => {
 
                         <Link
                             to={"/login"}
-                            className="bg-black/50 hover:bg-black text-white font-bold px-14 py-2 rounded-full shadow-md transition-all duration-300"
+                            className="bg-black/50 hover:bg-black text-white font-semibold px-14 py-3 rounded-full shadow-md transition-all duration-300"
                         >
                             SIGN IN
                         </Link>
