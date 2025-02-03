@@ -5,7 +5,7 @@ import BestDeals from '../components/BestDeals';
 
 const Home = () => {
   return (
-    <div className='w-full relative bg-gray-100'>
+    <div className='w-full min-h-screen relative bg-gray-100'>
       {/* About section */}
       <div className='relative h-[72vh] w-full'>
         {/* background image */}
@@ -43,7 +43,7 @@ const Home = () => {
       </div>
 
       {/* Todays Best Deals For You! */}
-      <div className='h-[60vh] w-full bg-transparent px-14 py-10'>
+      <div className='h-[70vh] w-full bg-transparent px-14 py-10'>
         <h1 className='text-xl mb-5 font-bold text-gray-700 drop-shadow-md'>Todays Best Deals For You!</h1>
         
         {/* Best Deals*/}

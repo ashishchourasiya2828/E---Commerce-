@@ -86,7 +86,7 @@ const ProductDetails = () => {
                             </button>
                             <span className="px-4 font-semibold">{quantity}</span>
                             <button
-                                disabled={quantity >= 7}
+                                disabled={quantity >= 10}
                                 className="px-2 py-1 font-semibold"
                                 onClick={() => dispatch(increaseQuantity())}
                             >

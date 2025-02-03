@@ -22,7 +22,7 @@ const productDetailsSlice = createSlice({
             state.defaultColor = action.payload.color;
         },
         increaseQuantity: (state) => {
-            if (state.quantity < 7) state.quantity += 1;
+            if (state.quantity < 10) state.quantity += 1;
         },
         decreaseQuantity: (state) => {
             if (state.quantity > 1) state.quantity -= 1;
